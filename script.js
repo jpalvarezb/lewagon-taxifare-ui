@@ -6,7 +6,6 @@ if (window.location.href.includes('https://taxifare.lewagon.com')) {
 }
 
 mapboxgl.accessToken = 'pk.eyJ1IjoianBhbHZhcmV6YiIsImEiOiJjbTd5bHFpemwwODI0MnFzYTJvY2lzNjVkIn0.QtMQnOVwQPpU1JbR8IUzDg';
-
 const displayMap = (start, stop) => {
   const map = new mapboxgl.Map({
     container: 'map',
